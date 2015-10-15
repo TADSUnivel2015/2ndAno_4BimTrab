@@ -17,6 +17,12 @@
 			<artifactId>h2</artifactId>
 			<version>1.4.190</version>
 		</dependency>
+		
+		<Dependência> 
+		    <GroupId> mysql </ groupId> <font> </ font>
+		    <ArtifactId> mysql-connector-java </ artifactId> <font> </ font>
+		    <Versão> 5.1.37 </ versão> <font> </ font>
+		</ Dependência>
 
 	</dependencies>
 	
