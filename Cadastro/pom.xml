@@ -1,10 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>br.univel.maven.cadastro</groupId>
-  <artifactId>cadastro</artifactId>
-  <version>1.0</version>
-  
-  <properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.univel.maven.cadastro</groupId>
+	<artifactId>cadastro</artifactId>
+	<version>1.0</version>
+
+	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -17,13 +18,13 @@
 			<artifactId>h2</artifactId>
 			<version>1.4.190</version>
 		</dependency>
-		
-		<Dependência> 
-		    <GroupId> mysql </ groupId> <font> </ font>
-		    <ArtifactId> mysql-connector-java </ artifactId> <font> </ font>
-		    <Versão> 5.1.37 </ versão> <font> </ font>
-		</ Dependência>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.37</version>
+		</dependency>
 
 	</dependencies>
-	
+
 </project>
