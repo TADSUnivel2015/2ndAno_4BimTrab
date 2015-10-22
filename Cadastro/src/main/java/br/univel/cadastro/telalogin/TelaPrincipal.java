@@ -52,9 +52,10 @@ public class TelaPrincipal extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				//	tabbedPane é um fild, que irá adicionar uma tela....
-				tabbedPane.addTab("Tela", new TelaCadastroCliente() {});	
+				abrirTela();	
 				
 			}
+
 		});
 		mnCadastros.add(mntmCliente);
 		contentPane = new JPanel();
@@ -64,6 +65,12 @@ public class TelaPrincipal extends JFrame {
 		
 		tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		contentPane.add(tabbedPane, BorderLayout.CENTER);
+	}
+	
+	private void abrirTela() {
+		TelaCadastroCliente telaCadastroCliente = new TelaCadastroCliente();	
+		telaCadastroCliente.setCloseAction(e -> tabbedPane.remove(telaCadastroCliente));
+		tabbedPane.addTab("Tela", telaCadastroCliente);
 	}
 
 }
