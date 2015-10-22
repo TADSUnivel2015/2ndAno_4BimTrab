@@ -1,4 +1,4 @@
-package br.unicel.cadastro.telalogin;
+package br.univel.cadastro.telalogin;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -52,7 +52,7 @@ public class TelaPrincipal extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				//	tabbedPane é um fild, que irá adicionar uma tela....
-				tabbedPane.addTab("Tela", new JPanel());
+				tabbedPane.addTab("Tela", new TelaCadastroCliente() {});	
 				
 			}
 		});
